@@ -1,0 +1,18 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.info-box{
+    
+        width: 65% ; 
+        border-radius: 6px; 
+        box-shadow: 10px -2px 20px 2px rgb(0 0 0/30%);
+        color:black ;
+        background: #f0efef ;
+        margin: 20px auto 0 auto ;
+        padding: 20px ;
+    
+}
+h1{
+    text-align: center;
+}

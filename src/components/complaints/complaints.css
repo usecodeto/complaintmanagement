@@ -1,0 +1,105 @@
+*{margin: 0;padding: 0;}
+#complaint-section{
+    min-height: calc(100vh - 58vh);
+}
+.com-box{
+    width: 70vw;
+    margin: 30px auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px -2px rgba(51, 51, 98, 0.4);
+    border: 2px solid rgb(199, 192, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{text-align: center;margin: 30px;}
+.left{
+    min-width:30%;
+    border-right: 1px solid black;
+    margin: 5px 20px;
+    padding: 10px;
+}
+
+.right{
+    min-width:30%;
+    /* border-right: 1px solid black; */
+    margin: 5px 20px;
+    padding: 10px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right-left p{
+    margin: 15px 30px 5px 5px;
+    min-width: 50%;
+    font-size: 20px;
+}
+.right-right p{
+    margin: 15px 5px 5px 30px;
+    min-width: 50%;
+    font-size: 20px;
+}
+.complaint-img{
+    width: 25vw;
+    border-radius: 10px;
+    border: 3px solid cyan;
+    margin-right:2vw;
+}
+.com-des{box-sizing: border-box;
+    border: 1px solid black;
+    margin: 15px 10px;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    padding: 5px;
+  }
+
+  .pagination{
+   
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 10px auto;
+  }
+
+  thead{
+    background-color: blue;
+  }
+  th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  td{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+#com-table{
+    max-width: 80%;
+    margin: auto;
+  }
+.table-row{
+    background-color: aqua;
+}
+.complaint-para{
+    /* display:table-cell; */
+    /* display: none; */
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    left: 40%;
+    margin: 3px;
+    /* background-color: black;
+    color: white; */
+
+}
+.table-content-row:hover ~ .complaint-para{
+    display:none;
+    background: black;
+
+}
+.table-content-row:hover {
+    opacity: 0.8;
+    background-color: blue;
+}

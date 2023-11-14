@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+.container2{
+    /* min-height: calc(100vh - 60px - 192.4px); */
+  display: none;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(29, 29, 26, 0.4);
+  padding: 15px;
+}
+/* .Modal-container{
+    visibility: none;
+} */
+h1{
+    text-align: center;
+    margin: 15px;
+}
+.form-box{
+    /* border: 1px solid black; */
+    /* margin: 20px auto; */
+    padding: 20px;
+    width: 40vw;
+}
+.submit-btn{
+    left: 30%;
+}
