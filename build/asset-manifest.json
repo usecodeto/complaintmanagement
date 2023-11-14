@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/complaintmanagement/static/css/main.1e99cabd.css",
+    "main.js": "/complaintmanagement/static/js/main.34b5e946.js",
+    "static/js/787.848931c7.chunk.js": "/complaintmanagement/static/js/787.848931c7.chunk.js",
+    "index.html": "/complaintmanagement/index.html",
+    "main.1e99cabd.css.map": "/complaintmanagement/static/css/main.1e99cabd.css.map",
+    "main.34b5e946.js.map": "/complaintmanagement/static/js/main.34b5e946.js.map",
+    "787.848931c7.chunk.js.map": "/complaintmanagement/static/js/787.848931c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e99cabd.css",
+    "static/js/main.34b5e946.js"
+  ]
+}
